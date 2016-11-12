@@ -21,14 +21,15 @@ body {
   max-width: 600px;
   margin: 0 auto;
   min-height: 100%;
-  background: white;
+  /*background: white;*/
 }
 
 header {
-  background: #d2edf4;
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  /*background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);*/
   padding: 20px 15px 15px 15px;
   position: relative;
+  background-color: transparent;
 }
 
 #login-buttons {
@@ -39,8 +40,9 @@ h1 {
   font-size: 1.5em;
   margin: 0;
   margin-bottom: 10px;
-  display: inline-block;
-  margin-right: 1em;
+  display: block;
+  text-align: center;
+  color: #ffffff;
 }
 
 form {
